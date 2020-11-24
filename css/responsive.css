@@ -1,0 +1,76 @@
+/*
+  Author: Aubrey Quisumbing
+  Repo URL: https://github.com/aubreyrq16/outrichpracticalexam
+  Created on: Nov 24, 2020 for Outrich
+*/
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+    #mainbanner {
+        min-height: 36vh;
+    }
+}
+@media (min-width: 992px) {
+    .container-min {
+        max-width: 920px;
+    }
+}
+@media (max-width: 768px) {
+    nav.navbar .navbar-collapse {
+        padding: 50px 20px 30px;
+    }
+    nav.navbar ul li {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    nav.navbar ul li a.active {
+        border-bottom: 0;
+    }
+    #mainbanner {
+        min-height: 60vh;
+        background-size: cover;
+    }
+    #contactinfo .right-col {
+        max-width: 100%;
+        padding: 40px 30px;
+    }
+    #contactinfo .left-col {
+        padding: 0;
+    }
+    #technology .left-col {
+        margin-bottom: 30px;
+    }
+    #technology .right-col {
+        padding-right: 15px;
+        padding-left: 15px; 
+    }
+}
+@media (max-width: 520px) {
+    #mainbanner {
+        padding-top: 20px;
+        min-height: 90vh;
+    }
+    nav.navbar .logo-full {
+        display: none;
+    }
+    #mainbanner h1.title-shadow {
+        font-size: 2.5rem;
+    }
+    #project #project-carousel .carousel-item .carousel-caption {
+        display: block !important;
+    }
+    #about .nav-tabs {
+        flex-direction: column;
+    }
+    #about .nav-tabs li {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 320px) {
+    #mainbanner h1.title-shadow {
+        font-size: 2.2rem;
+    }
+    #project #project-carousel .carousel-item img {
+        min-height: 675px;
+    }
+}
