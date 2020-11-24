@@ -1,5 +1,5 @@
 Author: Aubrey Quisumbing
-Actual site preview: hhttps://aubreyrq16.github.io/outrichpracticalexam/
+Actual site preview: https://aubreyrq16.github.io/outrichpracticalexam/
 Repo URL: https://github.com/aubreyrq16/outrichpracticalexam
 Created on: Nov 23, 2020 for Outrich
 
